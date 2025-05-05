@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Strong, Secure.</h1>
+    <p class="subtitle">Awesome. Try our random password generator.</p>
+    <p>A powerful generator for powerful passwords to protect your online accounts.</p>
+    
+    <hr>
+    
+    <h2>Other password type</h2>
+    <div class="password-types">
+        <div class="password-type">• X sender</div>
+        <div class="password-type">• Q resource</div>
+        <div class="password-type">• Z sys</div>
+    </div>
+    
+    <h2>Complete your new password</h2>
+    
+    <h3>Operation</h3>
+    <div class="options">
+        <div class="checkbox-container">
+            <input type="checkbox" id="op1" class="checkbox-custom" checked>
+            <label for="op1">[x]</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" id="op2" class="checkbox-custom" checked>
+            <label for="op2">[x]</label>
+        </div>
+    </div>
+    
+    <h3>Function</h3>
+    <div class="options">
+        <div class="checkbox-container">
+            <input type="checkbox" id="func1" class="checkbox-custom">
+            <label for="func1">[ ]</label>
+        </div>
+        <div class="checkbox-container">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <span>[x]</span>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <h2>Generating password</h2>
+    <div class="passwords">
+        <div class="password" id="password1">my@savd.vw4vkaAPf0ndcknqkszgwkt2o8c0</div>
+        <div class="password" id="password2">zpqr7nv4a5h02AZ3tva7Oj9fgqfrb6</div>
+    </div>
+    
+    <div class="copy-section">
+        <button id="copyButton">Copy password</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="review" class="checkbox-custom">
+            <label for="review">Reviews password</label>
+        </div>
+    </div>
+
+<script src="App.js"></script>
+</body>
+</html>
